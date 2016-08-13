@@ -31,9 +31,13 @@ cp C:\VeeamScripts\VeeamSlackNotifications\config\vsn.example.json C:\VeeamScrip
 notepad.exe C:\VeeamScripts\VeeamSlackNotifications\config\vsn.json
 ```
 
-Finally open Veeam and configure your jobs. Edit them and click on the![Advanced](https://raw.githubusercontent.com/TheSageColleges/VeeamSlackNotifications/master/asset/img/screens/sh-3.png) button.
+Finally open Veeam and configure your jobs. Edit them and click on the![Advanced](https://raw.githubusercontent.com/TheSageColleges/VeeamSlackNotifications/master/asset/img/screens/sh-3.png =100x28) button.
 
-Navigate to the "Scripts" tab and paste this: `Powershell.exe -File C:\VeeamScripts\VeeamSlackNotifications\SlackNotificationBootstrap.ps1` in the script that runs after the job is completed:
+Navigate to the "Scripts" tab and paste the following line the script that runs after the job is completed:
+
+```shell
+Powershell.exe -File C:\VeeamScripts\VeeamSlackNotifications\SlackNotificationBootstrap.ps1
+```
 
 ![screen](https://raw.githubusercontent.com/TheSageColleges/VeeamSlackNotifications/master/asset/img/screens/sh-1.png)
 
