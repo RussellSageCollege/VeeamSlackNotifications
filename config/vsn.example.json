@@ -2,6 +2,6 @@
 	"webhook": "https://hooks.slack.com/services/....",
 	"channel": "#veeam",
 	"service_name": "VeeamBot",
-	"icon_url": "https://pbs.twimg.com/profile_images/464400939227435008/1mEYi6d5_400x400.jpeg",
+	"icon_url": "https://raw.githubusercontent.com/TheSageColleges/VeeamSlackNotifications/master/asset/img/icon/veeam_slack.png",
 	"debug_log": false
 }
