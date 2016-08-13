@@ -15,11 +15,23 @@ Make a scripts directory: `C:\VeeamScripts`
 New-Item C:\VeeamScripts PowerShell -type directory
 ```
 
+#### Get code
+
 Then clone this repository:
 
 ```shell
 cd C:\VeeamScripts
 git clone https://github.com/TheSageColleges/VeeamSlackNotifications.git
+cd VeeamSlackNotifications
+git checkout v1-stable
+```
+
+Or without git:
+
+Download release, there may be later releases take a look and replace the version number with newer release numbers.
+Unzip the archive and make sure the folder is called: `VeeamSlackNotifications`
+```powershell
+Invoke-WebRequest -Uri https://github.com/TheSageColleges/VeeamSlackNotifications/archive/v1.0.zip -OutFile C:\VeeamScripts\VeeamSlackNotifications-v1.0.zip
 ```
 
 Configure the project:
