@@ -36,11 +36,11 @@ $JobType = $session.JobTypeString.Trim()
 
 # Switch on the session status
 switch ($Status) {
-	None {$emoji = ':thought _ balloon: '}
+    None {$emoji = ':thought _ balloon: '}
     Warning {$emoji = ':angry: '}
     Success {$emoji = ':green_heart: '}
-	Failed {$emoji = ':fire: '}
-	Default {$emoji = ''}
+    Failed {$emoji = ':fire: '}
+    Default {$emoji = ''}
 }
 
 # Build the details string
