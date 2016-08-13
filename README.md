@@ -31,7 +31,7 @@ cp C:\VeeamScripts\VeeamSlackNotifications\config\vsn.example.json C:\VeeamScrip
 notepad.exe C:\VeeamScripts\VeeamSlackNotifications\config\vsn.json
 ```
 
-Finally open Veeam and configure your jobs. Edit them and click on the![Advanced](https://raw.githubusercontent.com/TheSageColleges/VeeamSlackNotifications/master/asset/img/screens/sh-3.png =100x28) button.
+Finally open Veeam and configure your jobs. Edit them and click on the <img src="https://raw.githubusercontent.com/TheSageColleges/VeeamSlackNotifications/master/asset/img/screens/sh-3.png" height="20"> button.
 
 Navigate to the "Scripts" tab and paste the following line the script that runs after the job is completed:
 
