@@ -4,6 +4,11 @@ Sends notifications from Veeam Backup & Restore to Slack
 
 ![Chat Example](https://raw.githubusercontent.com/TheSageColleges/VeeamSlackNotifications/master/asset/img/screens/sh-2.png)
 
+
+If you use Mattermost check this out:
+
+* [Veeam Mattermost Notifications](https://github.com/TheSageColleges/MattermostVeeamNotifications)
+
 ---
 
 ## Setup
