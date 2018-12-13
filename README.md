@@ -1,3 +1,7 @@
+# Depreciated
+
+This project has been depreciated in favor of [MelonSmasher/VeeamChatNotifications](git@github.com:MelonSmasher/VeeamChatNotifications.git) which supports Slack, Mattermost, Teams, and Discord.
+
 # Veeam Backup and Restore Notification for Slack
 
 Sends notifications from Veeam Backup & Restore to Slack
